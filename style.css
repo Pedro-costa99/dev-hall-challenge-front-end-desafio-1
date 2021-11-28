@@ -57,8 +57,22 @@ main {
     
 }
 
+.container-img-barra-cinza{
+
+    background: url("./images/barra-cinza.svg") no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  
+    position: relative;
+    z-index: 1;
+    
+
+}
+
 .section-top{
-    height: 50%;
+    height: 750px;
     width: 100%;    
     /* filter: brightness(40%);    */
     background-blend-mode: darken;
@@ -83,7 +97,7 @@ main {
 .section-bottom{
     
     width: 100%;
-    height: 50%;    
+    height: 750px;  
     background-color: #FBFBFB;
     
 }
@@ -97,7 +111,7 @@ main {
     justify-content: space-around;
     align-content: center;
     width: 100%;
-    height: 40%;   
+    height: 300px;   
     font-size: 1.8rem;
    
    
@@ -117,15 +131,14 @@ footer{
     justify-content: center;
     align-items: center;
     background-color: #EAEAEA;
-    height: 12vh;
+    height: 10vh;
     font-size: 1.2rem;
 }
 
 .container-form-max-width{
     
     
-    height: 40%; 
-    min-height: 40%;
+    height: 300px;     
     width: 100%;
     display: flex;
     justify-content: center;
@@ -136,7 +149,7 @@ footer{
 
 .container-form{
     width: 83%; 
-    height: 100%;
+    height: 80%;
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -182,14 +195,16 @@ input{
     align-items: flex-start; 
     justify-content: center; 
     flex-direction: column;
+    
 }
 
 .button-peca-reuniao-green{
-    background-color: #10AC84 !important;
+    background-color: #10AC84 !important;    
     height: 50px;
     border-radius: 8px !important;
     margin-top: 15px;
     font-size: 1.8rem !important;
+    
     
 }
 
@@ -250,11 +265,19 @@ input{
     
 }
 
-@media screen and (max-width: 314px) {
+@media screen and (max-width: 410px) {
 
   
     .container-nossa-iniciativa{
-        height: 45%;
+        height: 300px;
+    }
+
+    .container-imagem-barra-cinza{
+        display: none;
+    }
+
+    form{
+        justify-content: center;
     }
     
 }
