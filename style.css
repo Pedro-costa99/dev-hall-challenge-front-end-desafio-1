@@ -11,3 +11,256 @@ html{
     font-size: 62.5%;
     
 }
+
+body, html {
+
+    width: 100%;
+    min-width: 280px;
+    
+}
+
+nav {
+
+    
+    height: 100%;
+    padding: 10px;
+    background-color: #EE5253;
+    
+}
+
+
+
+nav > ul > li > a {
+    font-size: 2.0rem;
+    color: #ffffff !important;
+    
+}
+
+
+
+main {
+    height: 1500px;
+ 
+}
+
+.section-top{
+
+    background: rgba(0, 0, 0, .65) url("./images/background-dev-no-pc.jpg") no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    z-index: 1;
+    
+    
+    
+    
+}
+
+.section-top{
+    height: 50%;
+    width: 100%;    
+    /* filter: brightness(40%);    */
+    background-blend-mode: darken;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    
+    
+}
+
+.container-prontos-para-a-acao{
+    padding: 80px;
+    color: #ffffff;
+    font-size: 3.5rem;
+    width: 100%;
+    
+}
+
+
+
+.section-bottom{
+    
+    width: 100%;
+    height: 50%;    
+    background-color: #FBFBFB;
+    
+}
+
+
+
+.container-nossa-iniciativa{
+    display: flex;
+    flex-direction: row;    
+    align-items: center;
+    justify-content: space-around;
+    align-content: center;
+    width: 100%;
+    height: 40%;   
+    font-size: 1.8rem;
+   
+   
+    /* padding-top: 40px; */
+}
+
+.container-paragrafo{
+    display: flex; 
+    flex-direction: column; 
+    width: 40%; 
+    justify-content: space-around;
+}
+
+footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #EAEAEA;
+    height: 12vh;
+    font-size: 1.2rem;
+}
+
+.container-form-max-width{
+    
+    
+    height: 40%; 
+    min-height: 40%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+
+.container-form{
+    width: 83%; 
+    height: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.form-titles{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around ;
+    width: 100%;
+    height: 35%;
+}
+
+form{
+    width: 60%;
+    float: bottom;
+    font-size: 1.6rem;
+    width: 100%
+    
+}
+
+img{
+    width: 100%;
+    margin-top: 50px;
+}
+
+h1{
+    font-size: 8rem;
+}
+
+h2{
+    font-size: 3.0rem;
+}
+
+input{
+    height: 40px;
+    border-radius: 8px !important;
+}
+
+.container-button{
+    display: flex; 
+    align-items: flex-start; 
+    justify-content: center; 
+    flex-direction: column;
+}
+
+.button-peca-reuniao-green{
+    background-color: #10AC84 !important;
+    height: 50px;
+    border-radius: 8px !important;
+    margin-top: 15px;
+    font-size: 1.8rem !important;
+    
+}
+
+.button-peca-reuniao-green:hover {
+    background-color: #ffffff !important;
+    color: #10AC84;
+    border-color: #10AC84;
+    
+}
+
+.button-peca-reuniao-orange{
+    background-color: #EE5253;
+    font-size: 2.6rem;
+    color: #ffffff;
+    border-radius: 12px;
+   
+}
+
+.button-peca-reuniao-orange:hover {
+    background-color: #ffffff;
+    color: #EE5253;
+    border-color: #EE5253;
+}
+
+.container-span{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+@media screen and (max-width: 767px) {
+    .container-img-homem-mao-no-queixo{
+        display: none;
+    }
+
+    .container-paragrafo{
+        width: 80%;
+    }
+        
+}
+
+@media screen and (max-width: 600px) {
+
+    
+
+    .h2-mande-um-oi{
+
+        display: none;
+    
+    }
+
+    .itens-prontos-para-a-acao{
+        display: none;
+    }
+    
+}
+
+@media screen and (max-width: 314px) {
+
+  
+    .container-nossa-iniciativa{
+        height: 45%;
+    }
+    
+}
+
+@media only screen and (orientation: landscape) and (max-height: 540px) {
+  
+    
+}
+
