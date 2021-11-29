@@ -199,7 +199,7 @@ input {
     background-color: #ffffff;
     color: #ee5253;
     border-color: #ee5253;
-    min-width: 230px;
+    
 }
 
 .container-span {
@@ -230,7 +230,7 @@ input {
         text-align: center;
         justify-content: center;
         align-items: center;
-        padding: 10px;
+        padding: 18px;
     }
 
     .h2-prontos-para-a-acao {
