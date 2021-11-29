@@ -13,6 +13,7 @@ body,
 html {
     width: 100%;
     min-width: 280px;
+    overflow-x: hidden;
 }
 
 nav {
@@ -50,8 +51,8 @@ main {
     z-index: 1;
 }
 
-.container-img-barra-cinza{
-    height: 150px; 
+.container-img-barra-cinza {
+    height: 150px;
     width: auto;
 }
 
@@ -82,7 +83,6 @@ main {
 .container-nossa-iniciativa-max-width {
     display: flex;
     justify-content: center;
-    width: 100%;
 }
 
 .container-nossa-iniciativa {
@@ -150,7 +150,7 @@ img {
     width: 100%;
     margin-top: 50px;
     position: relative;
-    z-index: 0; 
+    z-index: 0;
 }
 
 h1 {
@@ -199,6 +199,7 @@ input {
     background-color: #ffffff;
     color: #ee5253;
     border-color: #ee5253;
+    min-width: 230px;
 }
 
 .container-span {
@@ -223,18 +224,26 @@ input {
         display: none;
     }
 
-    .itens-prontos-para-a-acao {
-        display: none;
+    .container-prontos-para-a-acao {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        padding: 10px;
     }
-}
 
-@media screen and (max-width: 410px) {
-    .container-nossa-iniciativa {
-        height: 300px;
+    .h2-prontos-para-a-acao {
+        font-size: 1.8rem;
     }
 
-    .container-imagem-barra-cinza {
-        display: none;
+    .h1-prontos-para-a-acao {
+        font-size: 3.5rem;
+    }
+
+    .button-prontos-para-a-acao {
+        font-size: 1.8rem;
+        margin-top: 40px;
     }
 
     form {
@@ -245,3 +254,7 @@ input {
         justify-content: center;
     }
 }
+
+
+
+
