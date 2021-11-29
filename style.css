@@ -1,154 +1,129 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    
-    
 }
 
-html{
+html {
     /* 10px a cada 1rem*/
     font-size: 62.5%;
-    
 }
 
-body, html {
-
+body,
+html {
     width: 100%;
     min-width: 280px;
-    
 }
 
 nav {
-
-    
     height: 100%;
     padding: 10px;
-    background-color: #EE5253;
-    
+    background-color: #ee5253;
 }
-
-
 
 nav > ul > li > a {
-    font-size: 2.0rem;
+    font-size: 2rem;
     color: #ffffff !important;
-    
 }
-
-
 
 main {
     height: 1500px;
- 
 }
 
-.section-top{
-
-    background: rgba(0, 0, 0, .65) url("./images/background-dev-no-pc.jpg") no-repeat center center;
+.section-top {
+    background: rgba(0, 0, 0, 0.65) url("./images/background-dev-no-pc.jpg") no-repeat center center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
     z-index: 1;
-    
-    
-    
-    
 }
 
-.container-img-barra-cinza{
-
+.container-img-barra-cinza {
     background: url("./images/barra-cinza.svg") no-repeat center center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-  
+
     position: relative;
     z-index: 1;
-    
-
 }
 
-.section-top{
+.container-img-barra-cinza{
+    height: 150px; 
+    width: auto;
+}
+
+.section-top {
     height: 750px;
-    width: 100%;    
+    width: 100%;
     /* filter: brightness(40%);    */
     background-blend-mode: darken;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
-    
-    
 }
 
-.container-prontos-para-a-acao{
+.container-prontos-para-a-acao {
     padding: 80px;
     color: #ffffff;
     font-size: 3.5rem;
     width: 100%;
-    
 }
 
-
-
-.section-bottom{
-    
+.section-bottom {
     width: 100%;
-    height: 750px;  
-    background-color: #FBFBFB;
-    
+    height: 750px;
+    background-color: #fbfbfb;
 }
 
-
-
-.container-nossa-iniciativa{
+.container-nossa-iniciativa-max-width {
     display: flex;
-    flex-direction: row;    
-    align-items: center;
-    justify-content: space-around;
-    align-content: center;
+    justify-content: center;
     width: 100%;
-    height: 300px;   
-    font-size: 1.8rem;
-   
-   
-    /* padding-top: 40px; */
 }
 
-.container-paragrafo{
-    display: flex; 
-    flex-direction: column; 
-    width: 40%; 
+.container-nossa-iniciativa {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    align-content: center;
+    height: 300px;
+    width: 83%;
+    min-width: 274px;
+    font-size: 1.8rem;
+}
+
+.container-paragrafo {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
     justify-content: space-around;
 }
 
-footer{
+footer {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: #EAEAEA;
+    background-color: #eaeaea;
     height: 10vh;
     font-size: 1.2rem;
 }
 
-.container-form-max-width{
-    
-    
-    height: 300px;     
+.container-form-max-width {
+    height: 300px;
     width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
-    
-
 }
 
-.container-form{
-    width: 83%; 
+.container-form {
+    width: 83%;
     height: 80%;
     display: flex;
     align-items: center;
@@ -156,134 +131,117 @@ footer{
     justify-content: center;
 }
 
-.form-titles{
+.form-titles {
     display: flex;
     flex-direction: column;
-    justify-content: space-around ;
+    justify-content: space-around;
     width: 100%;
     height: 35%;
 }
 
-form{
+form {
     width: 60%;
     float: bottom;
     font-size: 1.6rem;
-    width: 100%
-    
+    width: 100%;
 }
 
-img{
+img {
     width: 100%;
     margin-top: 50px;
+    position: relative;
+    z-index: 0; 
 }
 
-h1{
+h1 {
     font-size: 8rem;
 }
 
-h2{
-    font-size: 3.0rem;
+h2 {
+    font-size: 3rem;
 }
 
-input{
+input {
     height: 40px;
     border-radius: 8px !important;
 }
 
-.container-button{
-    display: flex; 
-    align-items: flex-start; 
-    justify-content: center; 
+.container-button {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
     flex-direction: column;
-    
 }
 
-.button-peca-reuniao-green{
-    background-color: #10AC84 !important;    
+.button-peca-reuniao-green {
+    background-color: #10ac84 !important;
     height: 50px;
     border-radius: 8px !important;
     margin-top: 15px;
     font-size: 1.8rem !important;
-    
-    
+    min-width: 165px;
 }
 
 .button-peca-reuniao-green:hover {
     background-color: #ffffff !important;
-    color: #10AC84;
-    border-color: #10AC84;
-    
+    color: #10ac84;
+    border-color: #10ac84;
 }
 
-.button-peca-reuniao-orange{
-    background-color: #EE5253;
+.button-peca-reuniao-orange {
+    background-color: #ee5253;
     font-size: 2.6rem;
     color: #ffffff;
     border-radius: 12px;
-   
 }
 
 .button-peca-reuniao-orange:hover {
     background-color: #ffffff;
-    color: #EE5253;
-    border-color: #EE5253;
+    color: #ee5253;
+    border-color: #ee5253;
 }
 
-.container-span{
+.container-span {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
 }
 
-
-
 @media screen and (max-width: 767px) {
-    .container-img-homem-mao-no-queixo{
+    .container-img-homem-mao-no-queixo {
         display: none;
     }
 
-    .container-paragrafo{
+    .container-paragrafo {
         width: 80%;
     }
-        
 }
 
 @media screen and (max-width: 600px) {
-
-    
-
-    .h2-mande-um-oi{
-
-        display: none;
-    
-    }
-
-    .itens-prontos-para-a-acao{
+    .h2-mande-um-oi {
         display: none;
     }
-    
+
+    .itens-prontos-para-a-acao {
+        display: none;
+    }
 }
 
 @media screen and (max-width: 410px) {
-
-  
-    .container-nossa-iniciativa{
+    .container-nossa-iniciativa {
         height: 300px;
     }
 
-    .container-imagem-barra-cinza{
+    .container-imagem-barra-cinza {
         display: none;
     }
 
-    form{
+    form {
         justify-content: center;
     }
-    
-}
 
-@media only screen and (orientation: landscape) and (max-height: 540px) {
-  
-    
+    .container-nossa-iniciativa {
+        justify-content: center;
+    }
 }
-
