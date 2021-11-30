@@ -44,22 +44,6 @@ main {
     z-index: 1;
 }
 
-.container-img-barra-cinza {
-    background: url("./images/barra-cinza.svg") no-repeat center center;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-
-    position: relative;
-    z-index: 1;
-}
-
-.container-img-barra-cinza {
-    height: 150px;
-    width: auto;
-}
-
 .section-top {
     height: 750px;
     width: 100%;
@@ -76,6 +60,23 @@ main {
     color: #ffffff;
     font-size: 3.5rem;
     width: 100%;
+}
+
+.button-peca-reuniao-orange {
+    background-color: #ee5253;
+    height: 50px;
+    font-size: 1.8rem;
+    color: #ffffff;
+    border-radius: 8px;
+    border: 2px solid #ee5253 !important;
+    min-width: 165px;
+}
+
+.button-peca-reuniao-orange:hover {
+    background-color: #ffffff;
+    color: #ee5253;
+    border: 2px solid #ee5253 !important;
+       
 }
 
 .section-bottom {
@@ -108,15 +109,20 @@ main {
     justify-content: space-around;
 }
 
-footer {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    background-color: #eaeaea;
-    height: 10vh;
-    min-height: 40px;
-    font-size: 1.2rem;
+.container-img-barra-cinza {
+    background: url("./images/barra-cinza.svg") no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+    position: relative;
+    z-index: 1;
+}
+
+.container-img-barra-cinza {
+    height: 150px;
+    width: auto;
 }
 
 .container-form-max-width {
@@ -151,21 +157,6 @@ form {
     width: 100%;
 }
 
-img {
-    width: 100%;
-    margin-top: 50px;
-    position: relative;
-    z-index: 0;
-}
-
-h1 {
-    font-size: 8rem;
-}
-
-h2 {
-    font-size: 3rem;
-}
-
 input {
     height: 40px;
     border-radius: 8px !important;
@@ -194,22 +185,15 @@ input {
     border: 2px solid #10ac84 !important;
 }
 
-.button-peca-reuniao-orange {
-    background-color: #ee5253;
-    height: 50px;
-    font-size: 1.8rem;
-    color: #ffffff;
-    border-radius: 8px;
-    border: 2px solid #ee5253 !important;
-    min-width: 165px;
-}
-
-.button-peca-reuniao-orange:hover {
-    background-color: #ffffff;
-    color: #ee5253;
-    border: 2px solid #ee5253 !important;
-    
-    
+footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #eaeaea;
+    height: 10vh;
+    min-height: 40px;
+    font-size: 1.2rem;
 }
 
 .container-span {
@@ -222,6 +206,21 @@ input {
 
 .span{
     height: 50%;
+}
+
+img {
+    width: 100%;
+    margin-top: 50px;
+    position: relative;
+    z-index: 0;
+}
+
+h1 {
+    font-size: 8rem;
+}
+
+h2 {
+    font-size: 3rem;
 }
 
 @media screen and (max-width: 767px) {
@@ -256,7 +255,7 @@ input {
         font-size: 3.5rem;
     }
 
-    .button-prontos-para-a-acao {
+    .button-peca-reuniao-orange {
         font-size: 1.8rem;
         margin-top: 40px;
     }
