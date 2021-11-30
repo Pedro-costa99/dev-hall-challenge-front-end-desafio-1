@@ -17,3 +17,6 @@
 
 ## 😊 Autor
 - **Pedro Canabrava**
+
+## ✔️ Deploy no Heroku
+- **https://challenge-front-end-desafio-1.herokuapp.com/**
