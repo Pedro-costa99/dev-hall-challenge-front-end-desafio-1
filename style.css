@@ -69,7 +69,7 @@ main {
     color: #ffffff;
     border-radius: 8px;
     border: 2px solid #ee5253 !important;
-    min-width: 165px;
+    min-width: 167px;
 }
 
 .button-peca-reuniao-orange:hover {
@@ -176,7 +176,7 @@ input {
     border: 2px solid #10ac84 !important; 
     margin-top: 15px;
     font-size: 1.8rem !important;
-    min-width: 165px;
+    min-width: 167px;
 }
 
 .button-peca-reuniao-green:hover {

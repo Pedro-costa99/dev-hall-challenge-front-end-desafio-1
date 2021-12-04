@@ -2,7 +2,7 @@
 ---
 
 
-## 🎄 Usei as seguintes tecmologias:
+## 🎄 Usei as seguintes tecnologias:
 - **HTML5**
 - **CSS3**
 - **Bootstrap 5**
